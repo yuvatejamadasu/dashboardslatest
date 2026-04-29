@@ -1,0 +1,10 @@
+{
+  "fullName": "Admin User",
+  "email": "admin@primebasket.com",
+  "phone": "+1 (555) 123-4567",
+  "location": "San Francisco, CA",
+  "role": "Super Administrator",
+  "website": "https://primebasket.com",
+  "bio": "Responsible for overseeing platform operations, seller management, and product approvals across all regions.",
+  "profileImage": ""
+}

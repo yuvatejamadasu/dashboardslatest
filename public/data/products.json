@@ -1,0 +1,114 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "Seeds of Change Organic Quinoa",
+      "price": 34.50,
+      "quantity": 120,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "GreenLeaf Mart",
+      "netWeight": "500g",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-1.890b3967.jpg"
+    },
+    {
+      "id": 2,
+      "name": "All Natural Italian-Style Chicken",
+      "price": 990.99,
+      "quantity": 45,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "FreshBite Store",
+      "netWeight": "1kg",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-2.454e990c.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gortons Beer Battered Fish Fillets",
+      "price": 76.99,
+      "quantity": 88,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "DailyNeeds Hub",
+      "netWeight": "750g",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-3.37682664.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Foster Farms Crispy Buffalo",
+      "price": 18.00,
+      "quantity": 200,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "QuickCart Plus",
+      "netWeight": "500g",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-4.c87a549a.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Blue Diamond Almonds Salted",
+      "price": 76.99,
+      "quantity": 60,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "OrganicBasket Co",
+      "netWeight": "250g",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-5.c87a549a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chobani Vanilla Greek Yogurt",
+      "price": 18.00,
+      "quantity": 150,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "SmartGrocer",
+      "netWeight": "1kg",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-6.26257e84.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Canada Dry Ginger Ale 2L",
+      "price": 76.99,
+      "quantity": 32,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "UrbanPantry",
+      "netWeight": "2L",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-7.44315668.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Haagen-Dazs Caramel Cone Ice",
+      "price": 180.99,
+      "quantity": 74,
+      "date": "02.11.2021",
+      "status": "Active",
+      "storeName": "PrimePick Store",
+      "netWeight": "500ml",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-8.06739999.jpg"
+    },
+    {
+      "id": 9,
+      "name": "lays chips",
+      "price": 20.00,
+      "quantity": 100,
+      "date": "02.11.2025",
+      "status": "Active",
+      "storeName": "PrimePick Store",
+      "netWeight": "200g",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-8.06739999.jpg"
+    },
+    {
+      "id": 10,
+      "name": "amul ice cream",
+      "price": 120.00,
+      "quantity": 200,
+      "date": "02.11.2025",
+      "status": "Active",
+      "storeName": "PrimePick Store",
+      "netWeight": "1L",
+      "image": "https://nest-backend-v6.vercel.app/static/media/product-8.06739999.jpg"
+    }
+  ]
+}

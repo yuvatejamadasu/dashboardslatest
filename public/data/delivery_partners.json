@@ -1,0 +1,82 @@
+{
+  "kpi": [
+    { "label": "Total Earnings", "value": "KES 84,250", "change": "+12.5%", "up": true, "sub": "Total payouts this month" },
+    { "label": "Delivered", "value": "1,245", "change": "+8.2%", "up": true, "sub": "Successfully completed" },
+    { "label": "Pending", "value": "42", "change": "-3.1%", "up": false, "sub": "Awaiting delivery" },
+    { "label": "Open Queries", "value": "7", "change": "-18%", "up": false, "sub": "Customer complaints" }
+  ],
+  "trend": [
+    { "month": "Jan", "earnings": 52000, "deliveries": 800 },
+    { "month": "Feb", "earnings": 61000, "deliveries": 900 },
+    { "month": "Mar", "earnings": 64000, "deliveries": 980 },
+    { "month": "Apr", "earnings": 62000, "deliveries": 950 },
+    { "month": "May", "earnings": 72000, "deliveries": 1050 },
+    { "month": "Jun", "earnings": 75000, "deliveries": 1100 },
+    { "month": "Jul", "earnings": 78000, "deliveries": 1150 },
+    { "month": "Aug", "earnings": 82000, "deliveries": 1200 },
+    { "month": "Sep", "earnings": 80000, "deliveries": 1180 },
+    { "month": "Oct", "earnings": 86000, "deliveries": 1250 },
+    { "month": "Nov", "earnings": 84000, "deliveries": 1220 },
+    { "month": "Dec", "earnings": 92000, "deliveries": 1300 }
+  ],
+  "feedback": [
+    { "name": "5 Stars", "value": 45, "color": "#1e40af" },
+    { "name": "4 Stars", "value": 30, "color": "#10b981" },
+    { "name": "3 Stars", "value": 15, "color": "#f59e0b" },
+    { "name": "2 Stars", "value": 7, "color": "#8b5cf6" },
+    { "name": "1 Star", "value": 3, "color": "#ef4444" }
+  ],
+  "recentDeliveries": [
+    { "id": "#ORD-4521", "customer": "Priya Sharma", "product": "Basmati Rice 5kg", "location": "Koramangala, Bangalore", "status": "Delivered" },
+    { "id": "#ORD-4518", "customer": "Amit Patel", "product": "Organic Honey 500g", "location": "Andheri West, Mumbai", "status": "Pending" },
+    { "id": "#ORD-4515", "customer": "Neha Gupta", "product": "Mixed Dry Fruits 1kg", "location": "Saket, New Delhi", "status": "Delivered" },
+    { "id": "#ORD-4512", "customer": "Rajesh Kumar", "product": "Cold Press Oil 1L", "location": "Banjara Hills, Hyderabad", "status": "In Transit" },
+    { "id": "#ORD-4509", "customer": "Sunita Devi", "product": "Saffron 2g Pack", "location": "Salt Lake, Kolkata", "status": "Delivered" }
+  ],
+  "openQueries": [
+    { "id": "QRY-101", "orderId": "#ORD-4499", "customer": "Kavita Joshi", "issue": "Wrong address attempted — delivery failed", "priority": "HIGH", "assignedTo": "Mahesh Babu", "date": "04 Apr 2026", "status": "Open" },
+    { "id": "QRY-099", "orderId": "#ORD-4507", "customer": "Vikash Yadav", "issue": "Delivery was delayed by one day", "priority": "MEDIUM", "assignedTo": "Mahesh Babu", "date": "06 Apr 2026", "status": "In Progress" },
+    { "id": "QRY-097", "orderId": "#ORD-4515", "customer": "Neha Gupta", "issue": "Package was slightly damaged on arrival", "priority": "LOW", "assignedTo": "Vikram Singh", "date": "07 Apr 2026", "status": "Resolved" },
+    { "id": "QRY-095", "orderId": "#ORD-4512", "customer": "Rajesh Kumar", "issue": "Tracking not updating — still shows in transit", "priority": "HIGH", "assignedTo": "Rahul Dravid", "date": "07 Apr 2026", "status": "Open" },
+    { "id": "QRY-093", "orderId": "#ORD-4505", "customer": "Ananya Roy", "issue": "Estimated delivery date passed", "priority": "MEDIUM", "assignedTo": "Suresh Raina", "date": "07 Apr 2026", "status": "Open" },
+    { "id": "QRY-091", "orderId": "#ORD-4481", "customer": "Ravi Shankar", "issue": "Received wrong item in the package", "priority": "HIGH", "assignedTo": "Arjun Kumar", "date": "03 Apr 2026", "status": "Resolved" },
+    { "id": "QRY-089", "orderId": "#ORD-4470", "customer": "Meena Kumari", "issue": "Delivery partner was rude during handoff", "priority": "HIGH", "assignedTo": "Suresh Raina", "date": "02 Apr 2026", "status": "In Progress" }
+  ],
+  "locationStats": [
+    { "name": "Bangalore", "delivered": 312, "pending": 8, "failed": 3, "total": 323, "success": 350 },
+    { "name": "Mumbai", "delivered": 278, "pending": 12, "failed": 5, "total": 295, "success": 350 },
+    { "name": "New Delhi", "delivered": 245, "pending": 6, "failed": 2, "total": 253, "success": 350 },
+    { "name": "Hyderabad", "delivered": 198, "pending": 9, "failed": 4, "total": 211, "success": 350 },
+    { "name": "Pune", "delivered": 113, "pending": 3, "failed": 1, "total": 117, "success": 350 },
+    { "name": "Kolkata", "delivered": 68, "pending": 2, "failed": 0, "total": 70, "success": 350 },
+    { "name": "Lucknow", "delivered": 32, "pending": 4, "failed": 1, "total": 37, "success": 350 }
+  ],
+  "feedbackData": [
+    { "id": 1, "customer": "Priya Sharma", "avatar": "PS", "orderId": "#ORD-4521", "date": "07 Apr 2026", "rating": 5, "comment": "\"Very fast delivery, well packed! The delivery partner was polite and professional.\"", "partner": "Arjun Kumar" },
+    { "id": 2, "customer": "Deepak Verma", "avatar": "DV", "orderId": "#ORD-4496", "date": "04 Apr 2026", "rating": 5, "comment": "\"Perfect! Delivered before expected time. Will order again.\"", "partner": "Rahul Dravid" },
+    { "id": 3, "customer": "Sunita Devi", "avatar": "SD", "orderId": "#ORD-4509", "date": "06 Apr 2026", "rating": 5, "comment": "\"Excellent packaging and on-time delivery! Very happy with the service.\"", "partner": "Arjun Kumar" },
+    { "id": 4, "customer": "Neha Gupta", "avatar": "NG", "orderId": "#ORD-4515", "date": "07 Apr 2026", "rating": 4, "comment": "\"Good delivery but slightly delayed. The package had a minor dent.\"", "partner": "Vikram Singh" },
+    { "id": 5, "customer": "Manoj Tiwari", "avatar": "MT", "orderId": "#ORD-4502", "date": "05 Apr 2026", "rating": 4, "comment": "\"Neatly delivered. Satisfied with the overall experience.\"", "partner": "Vikram Singh" },
+    { "id": 6, "customer": "Vikash Yadav", "avatar": "VY", "orderId": "#ORD-4507", "date": "06 Apr 2026", "rating": 3, "comment": "\"Delivery was late by a day. Expected better timing.\"", "partner": "Mahesh Babu" },
+    { "id": 7, "customer": "Kavita Joshi", "avatar": "KJ", "orderId": "#ORD-4499", "date": "04 Apr 2026", "rating": 1, "comment": "\"Wrong address attempted, delivery returned. Very frustrating experience.\"", "partner": "Mahesh Babu" }
+  ],
+  "partners": [
+    { "id": "DP001", "name": "Arjun Kumar", "avatar": "AK", "contact": "+91 98765 43210", "delivered": 154, "pending": 3, "failed": 1, "earnings": "KES 12,400", "zone": "Bangalore, Kolkata", "rating": 4.8, "status": "Active" },
+    { "id": "DP002", "name": "Suresh Raina", "avatar": "SR", "contact": "+91 87654 32109", "delivered": 132, "pending": 8, "failed": 2, "earnings": "KES 10,560", "zone": "Mumbai, Hyderabad", "rating": 4.6, "status": "Active" },
+    { "id": "DP003", "name": "Vikram Singh", "avatar": "VS", "contact": "+91 76543 21098", "delivered": 98, "pending": 2, "failed": 0, "earnings": "KES 7,840", "zone": "New Delhi, Lucknow", "rating": 4.9, "status": "On Leave" },
+    { "id": "DP004", "name": "Rahul Dravid", "avatar": "RD", "contact": "+91 65432 10987", "delivered": 210, "pending": 5, "failed": 2, "earnings": "KES 16,800", "zone": "Hyderabad, Pune", "rating": 4.7, "status": "Active" },
+    { "id": "DP005", "name": "Mahesh Babu", "avatar": "MB", "contact": "+91 54321 09876", "delivered": 45, "pending": 4, "failed": 3, "earnings": "KES 3,600", "zone": "Bangalore, Pune", "rating": 4.2, "status": "Active" }
+  ],
+  "allDeliveryOrders": [
+    { "id": "#ORD-4521", "customer": "Priya Sharma", "product": "Basmati Rice 5kg", "location": "Koramangala, Bangalore", "orderDate": "07 Apr 2026", "deliveryDate": "07 Apr 2026", "amount": "KES 450", "partner": "Arjun Kumar", "status": "Delivered" },
+    { "id": "#ORD-4518", "customer": "Amit Patel", "product": "Organic Honey 500g", "location": "Andheri West, Mumbai", "orderDate": "07 Apr 2026", "deliveryDate": "—", "amount": "KES 320", "partner": "Suresh Raina", "status": "Pending" },
+    { "id": "#ORD-4515", "customer": "Neha Gupta", "product": "Mixed Dry Fruits 1kg", "location": "Saket, New Delhi", "orderDate": "06 Apr 2026", "deliveryDate": "07 Apr 2026", "amount": "KES 780", "partner": "Vikram Singh", "status": "Delivered" },
+    { "id": "#ORD-4512", "customer": "Rajesh Kumar", "product": "Cold Press Oil 1L", "location": "Banjara Hills, Hyderabad", "orderDate": "06 Apr 2026", "deliveryDate": "—", "amount": "KES 540", "partner": "Rahul Dravid", "status": "In Transit" },
+    { "id": "#ORD-4509", "customer": "Sunita Devi", "product": "Saffron 2g Pack", "location": "Salt Lake, Kolkata", "orderDate": "06 Apr 2026", "deliveryDate": "06 Apr 2026", "amount": "KES 1,200", "partner": "Arjun Kumar", "status": "Delivered" },
+    { "id": "#ORD-4507", "customer": "Vikash Yadav", "product": "Almond Butter 350g", "location": "Whitefield, Bangalore", "orderDate": "05 Apr 2026", "deliveryDate": "06 Apr 2026", "amount": "KES 420", "partner": "Mahesh Babu", "status": "Delivered" },
+    { "id": "#ORD-4505", "customer": "Ananya Roy", "product": "Green Tea 100 bags", "location": "Jubilee Hills, Hyderabad", "orderDate": "05 Apr 2026", "deliveryDate": "—", "amount": "KES 290", "partner": "Suresh Raina", "status": "Pending" },
+    { "id": "#ORD-4502", "customer": "Manoj Tiwari", "product": "Quinoa 500g", "location": "Gomti Nagar, Lucknow", "orderDate": "05 Apr 2026", "deliveryDate": "05 Apr 2026", "amount": "KES 350", "partner": "Vikram Singh", "status": "Delivered" },
+    { "id": "#ORD-4499", "customer": "Kavita Joshi", "product": "Chia Seeds 250g", "location": "Viman Nagar, Pune", "orderDate": "04 Apr 2026", "deliveryDate": "—", "amount": "KES 180", "partner": "Mahesh Babu", "status": "Failed" },
+    { "id": "#ORD-4496", "customer": "Deepak Verma", "product": "Jaggery Powder 1kg", "location": "Aundh, Pune", "orderDate": "04 Apr 2026", "deliveryDate": "04 Apr 2026", "amount": "KES 220", "partner": "Rahul Dravid", "status": "Delivered" }
+  ]
+}

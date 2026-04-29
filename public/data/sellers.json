@@ -1,0 +1,196 @@
+{
+  "sellers": [
+    {
+      "id": 1,
+      "name": "Fresh Farms Co.",
+      "category": "Vegetables & Fruits",
+      "rating": 4.8,
+      "products": 142,
+      "revenue": "KES 24,500",
+      "location": "California, USA",
+      "initials": "FF",
+      "color": "bg-emerald-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+15.4%", "change": "+2.1%", "up": true },
+          { "label": "Retention Rate", "value": "82%", "change": "+5.3%", "up": true },
+          { "label": "Orders Volume", "value": "1,842", "change": "-1.2%", "up": false },
+          { "label": "Customer Satisfaction", "value": "4.9/5", "change": "0%", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 1800, "orders": 120 },
+          { "name": "Feb", "revenue": 2100, "orders": 145 },
+          { "name": "Mar", "revenue": 2400, "orders": 168 },
+          { "name": "Apr", "revenue": 1900, "orders": 132 },
+          { "name": "May", "revenue": 2200, "orders": 154 },
+          { "name": "Jun", "revenue": 2600, "orders": 182 }
+        ],
+        "categories": [
+          { "name": "Vegetables", "value": 60, "color": "#10b981" },
+          { "name": "Fruits", "value": 30, "color": "#f59e0b" },
+          { "name": "Other", "value": 10, "color": "#3b82f6" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dairy Direct",
+      "category": "Dairy & Eggs",
+      "rating": 4.6,
+      "products": 89,
+      "revenue": "KES 18,200",
+      "location": "Wisconsin, USA",
+      "initials": "DD",
+      "color": "bg-blue-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+8.2%", "change": "+0.5%", "up": true },
+          { "label": "Retention Rate", "value": "75%", "change": "-2.1%", "up": false },
+          { "label": "Orders Volume", "value": "1,120", "change": "+4.2%", "up": true },
+          { "label": "Customer Satisfaction", "value": "4.7/5", "change": "+0.1", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 1400, "orders": 90 },
+          { "name": "Feb", "revenue": 1600, "orders": 105 },
+          { "name": "Mar", "revenue": 1800, "orders": 118 },
+          { "name": "Apr", "revenue": 1500, "orders": 98 },
+          { "name": "May", "revenue": 1700, "orders": 112 },
+          { "name": "Jun", "revenue": 1900, "orders": 125 }
+        ],
+        "categories": [
+          { "name": "Milk", "value": 45, "color": "#3b82f6" },
+          { "name": "Eggs", "value": 35, "color": "#f59e0b" },
+          { "name": "Other", "value": 20, "color": "#10b981" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Organic Valley",
+      "category": "Organic Produce",
+      "rating": 4.9,
+      "products": 203,
+      "revenue": "KES 41,800",
+      "location": "Vermont, USA",
+      "initials": "OV",
+      "color": "bg-violet-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+22.4%", "change": "+4.1%", "up": true },
+          { "label": "Retention Rate", "value": "89%", "change": "+1.2%", "up": true },
+          { "label": "Orders Volume", "value": "2,420", "change": "+8.5%", "up": true },
+          { "label": "Customer Satisfaction", "value": "4.9/5", "change": "0", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 3200, "orders": 185 },
+          { "name": "Feb", "revenue": 3600, "orders": 210 },
+          { "name": "Mar", "revenue": 4100, "orders": 242 },
+          { "name": "Apr", "revenue": 3800, "orders": 224 },
+          { "name": "May", "revenue": 4300, "orders": 256 },
+          { "name": "Jun", "revenue": 4800, "orders": 288 }
+        ],
+        "categories": [
+          { "name": "Grains", "value": 40, "color": "#8b5cf6" },
+          { "name": "Organic Fruit", "value": 40, "color": "#10b981" },
+          { "name": "Other", "value": 20, "color": "#f59e0b" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bakery House",
+      "category": "Bread & Bakery",
+      "rating": 4.7,
+      "products": 56,
+      "revenue": "KES 12,600",
+      "location": "New York, USA",
+      "initials": "BH",
+      "color": "bg-amber-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+5.4%", "change": "-1.1%", "up": false },
+          { "label": "Retention Rate", "value": "68%", "change": "+2.3%", "up": true },
+          { "label": "Orders Volume", "value": "842", "change": "+1.2%", "up": true },
+          { "label": "Customer Satisfaction", "value": "4.7/5", "change": "0", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 950, "orders": 65 },
+          { "name": "Feb", "revenue": 1050, "orders": 72 },
+          { "name": "Mar", "revenue": 1150, "orders": 78 },
+          { "name": "Apr", "revenue": 900, "orders": 62 },
+          { "name": "May", "revenue": 1100, "orders": 75 },
+          { "name": "Jun", "revenue": 1250, "orders": 85 }
+        ],
+        "categories": [
+          { "name": "Bread", "value": 70, "color": "#f59e0b" },
+          { "name": "Pastries", "value": 20, "color": "#f43f5e" },
+          { "name": "Other", "value": 10, "color": "#3b82f6" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Meat Masters",
+      "category": "Meat & Poultry",
+      "rating": 4.5,
+      "products": 78,
+      "revenue": "KES 29,300",
+      "location": "Texas, USA",
+      "initials": "MM",
+      "color": "bg-rose-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+11.2%", "change": "+1.5%", "up": true },
+          { "label": "Retention Rate", "value": "62%", "change": "-4.1%", "up": false },
+          { "label": "Orders Volume", "value": "1,420", "change": "+2.2%", "up": true },
+          { "label": "Customer Satisfaction", "value": "4.5/5", "change": "0", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 2200, "orders": 108 },
+          { "name": "Feb", "revenue": 2500, "orders": 122 },
+          { "name": "Mar", "revenue": 2800, "orders": 138 },
+          { "name": "Apr", "revenue": 2400, "orders": 118 },
+          { "name": "May", "revenue": 2700, "orders": 132 },
+          { "name": "Jun", "revenue": 3100, "orders": 152 }
+        ],
+        "categories": [
+          { "name": "Red Meat", "value": 55, "color": "#f43f5e" },
+          { "name": "Poultry", "value": 35, "color": "#f59e0b" },
+          { "name": "Other", "value": 10, "color": "#3b82f6" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sea Harvest",
+      "category": "Seafood",
+      "rating": 4.4,
+      "products": 64,
+      "revenue": "KES 22,100",
+      "location": "Florida, USA",
+      "initials": "SH",
+      "color": "bg-cyan-500",
+      "analytics": {
+        "kpi": [
+          { "label": "Sales Growth", "value": "+7.4%", "change": "+0.5%", "up": true },
+          { "label": "Retention Rate", "value": "58%", "change": "-2.3%", "up": false },
+          { "label": "Orders Volume", "value": "942", "change": "+3.1%", "up": true },
+          { "label": "Customer Satisfaction", "value": "4.4/5", "change": "0", "up": true }
+        ],
+        "monthly": [
+          { "name": "Jan", "revenue": 1800, "orders": 78 },
+          { "name": "Feb", "revenue": 2000, "orders": 85 },
+          { "name": "Mar", "revenue": 2200, "orders": 94 },
+          { "name": "Apr", "revenue": 1900, "orders": 81 },
+          { "name": "May", "revenue": 2100, "orders": 90 },
+          { "name": "Jun", "revenue": 2400, "orders": 102 }
+        ],
+        "categories": [
+          { "name": "Fish", "value": 65, "color": "#06b6d4" },
+          { "name": "Shellfish", "value": 25, "color": "#3b82f6" },
+          { "name": "Other", "value": 10, "color": "#f59e0b" }
+        ]
+      }
+    }
+  ]
+}

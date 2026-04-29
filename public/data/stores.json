@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Haven",
+    "location": "New York, USA",
+    "category": "Electronics",
+    "manager": "John Doe",
+    "contact": "+1 (555) 123-4567",
+    "status": "Active",
+    "storesCount": 5,
+    "revenue": "KES 125,000",
+    "rating": 4.8,
+    "initials": "TH",
+    "color": "bg-blue-500",
+    "analytics": {
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 125,000", "change": "+12.4%", "up": true },
+        { "label": "Total Orders", "value": "3,420", "change": "+8.1%", "up": true },
+        { "label": "New Customers", "value": "640", "change": "+5.6%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 36.5", "change": "-2.1%", "up": false }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 8200, "orders": 210 },
+        { "name": "Feb", "revenue": 9100, "orders": 235 },
+        { "name": "Mar", "revenue": 10500, "orders": 280 },
+        { "name": "Apr", "revenue": 9800, "orders": 260 },
+        { "name": "May", "revenue": 11200, "orders": 310 },
+        { "name": "Jun", "revenue": 12000, "orders": 340 },
+        { "name": "Jul", "revenue": 10800, "orders": 295 },
+        { "name": "Aug", "revenue": 11500, "orders": 315 },
+        { "name": "Sep", "revenue": 10200, "orders": 275 },
+        { "name": "Oct", "revenue": 12500, "orders": 350 },
+        { "name": "Nov", "revenue": 14000, "orders": 390 },
+        { "name": "Dec", "revenue": 15200, "orders": 420 }
+      ],
+      "categories": [
+        { "name": "Laptops", "value": 40, "color": "#3b82f6" },
+        { "name": "Phones", "value": 30, "color": "#8b5cf6" },
+        { "name": "Accessories", "value": 20, "color": "#10b981" },
+        { "name": "Other", "value": 10, "color": "#f59e0b" }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fashion Forward",
+    "location": "London, UK",
+    "category": "Apparel",
+    "manager": "Jane Smith",
+    "contact": "+44 20 7123 4567",
+    "status": "Active",
+    "storesCount": 3,
+    "revenue": "KES 85,000",
+    "rating": 4.5,
+    "initials": "FF",
+    "color": "bg-rose-500",
+    "analytics": {
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 85,000", "change": "+7.2%", "up": true },
+        { "label": "Total Orders", "value": "2,180", "change": "+4.5%", "up": true },
+        { "label": "New Customers", "value": "430", "change": "+3.1%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 39.0", "change": "-1.5%", "up": false }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 5500, "orders": 140 },
+        { "name": "Feb", "revenue": 6200, "orders": 158 },
+        { "name": "Mar", "revenue": 7100, "orders": 182 },
+        { "name": "Apr", "revenue": 6800, "orders": 175 },
+        { "name": "May", "revenue": 7500, "orders": 192 },
+        { "name": "Jun", "revenue": 8200, "orders": 210 },
+        { "name": "Jul", "revenue": 7800, "orders": 200 },
+        { "name": "Aug", "revenue": 8000, "orders": 205 },
+        { "name": "Sep", "revenue": 7200, "orders": 185 },
+        { "name": "Oct", "revenue": 8500, "orders": 218 },
+        { "name": "Nov", "revenue": 9500, "orders": 244 },
+        { "name": "Dec", "revenue": 12700, "orders": 271 }
+      ],
+      "categories": [
+        { "name": "Women", "value": 50, "color": "#f43f5e" },
+        { "name": "Men", "value": 30, "color": "#3b82f6" },
+        { "name": "Kids", "value": 15, "color": "#f59e0b" },
+        { "name": "Accessories", "value": 5, "color": "#10b981" }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Home Comforts",
+    "location": "Berlin, Germany",
+    "category": "Furniture",
+    "manager": "Hans Müller",
+    "contact": "+49 30 12345678",
+    "status": "Inactive",
+    "storesCount": 1,
+    "revenue": "KES 42,000",
+    "rating": 4.2,
+    "initials": "HC",
+    "color": "bg-amber-500",
+    "analytics": {
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 42,000", "change": "-3.5%", "up": false },
+        { "label": "Total Orders", "value": "980", "change": "-5.2%", "up": false },
+        { "label": "New Customers", "value": "190", "change": "-2.0%", "up": false },
+        { "label": "Avg. Order Value", "value": "KES 42.9", "change": "+1.8%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 4100, "orders": 95 },
+        { "name": "Feb", "revenue": 3800, "orders": 88 },
+        { "name": "Mar", "revenue": 3600, "orders": 83 },
+        { "name": "Apr", "revenue": 3500, "orders": 80 },
+        { "name": "May", "revenue": 3300, "orders": 76 },
+        { "name": "Jun", "revenue": 3200, "orders": 74 },
+        { "name": "Jul", "revenue": 3100, "orders": 71 },
+        { "name": "Aug", "revenue": 3000, "orders": 69 },
+        { "name": "Sep", "revenue": 3500, "orders": 81 },
+        { "name": "Oct", "revenue": 3800, "orders": 88 },
+        { "name": "Nov", "revenue": 4100, "orders": 95 },
+        { "name": "Dec", "revenue": 5000, "orders": 115 }
+      ],
+      "categories": [
+        { "name": "Sofas", "value": 35, "color": "#f59e0b" },
+        { "name": "Beds", "value": 30, "color": "#8b5cf6" },
+        { "name": "Tables", "value": 20, "color": "#10b981" },
+        { "name": "Decor", "value": 15, "color": "#ef4444" }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Green Grocers",
+    "location": "Paris, France",
+    "category": "Groceries",
+    "manager": "Marie Dubois",
+    "contact": "+33 1 23 45 67 89",
+    "status": "Active",
+    "storesCount": 8,
+    "revenue": "KES 150,000",
+    "rating": 4.9,
+    "initials": "GG",
+    "color": "bg-emerald-500",
+    "analytics": {
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 150,000", "change": "+18.3%", "up": true },
+        { "label": "Total Orders", "value": "5,800", "change": "+14.2%", "up": true },
+        { "label": "New Customers", "value": "1,100", "change": "+11.5%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 25.9", "change": "+3.7%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 10000, "orders": 385 },
+        { "name": "Feb", "revenue": 10800, "orders": 415 },
+        { "name": "Mar", "revenue": 11500, "orders": 442 },
+        { "name": "Apr", "revenue": 12000, "orders": 462 },
+        { "name": "May", "revenue": 12800, "orders": 492 },
+        { "name": "Jun", "revenue": 13500, "orders": 519 },
+        { "name": "Jul", "revenue": 12200, "orders": 469 },
+        { "name": "Aug", "revenue": 13000, "orders": 500 },
+        { "name": "Sep", "revenue": 12500, "orders": 481 },
+        { "name": "Oct", "revenue": 14000, "orders": 538 },
+        { "name": "Nov", "revenue": 15500, "orders": 596 },
+        { "name": "Dec", "revenue": 18200, "orders": 700 }
+      ],
+      "categories": [
+        { "name": "Fresh Produce", "value": 45, "color": "#10b981" },
+        { "name": "Dairy", "value": 25, "color": "#3b82f6" },
+        { "name": "Beverages", "value": 15, "color": "#f59e0b" },
+        { "name": "Snacks", "value": 15, "color": "#f43f5e" }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sports Direct",
+    "location": "Sydney, Australia",
+    "category": "Sports",
+    "manager": "Shane Warne",
+    "contact": "+61 2 9123 4567",
+    "status": "Active",
+    "storesCount": 4,
+    "revenue": "$98,000",
+    "rating": 4.6,
+    "initials": "SD",
+    "color": "bg-indigo-500",
+    "analytics": {
+      "kpi": [
+        { "label": "Total Revenue", "value": "$98,000", "change": "+9.8%", "up": true },
+        { "label": "Total Orders", "value": "2,950", "change": "+6.3%", "up": true },
+        { "label": "New Customers", "value": "520", "change": "+4.9%", "up": true },
+        { "label": "Avg. Order Value", "value": "$33.2", "change": "+3.2%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 6500, "orders": 195 },
+        { "name": "Feb", "revenue": 7200, "orders": 217 },
+        { "name": "Mar", "revenue": 8100, "orders": 244 },
+        { "name": "Apr", "revenue": 7800, "orders": 235 },
+        { "name": "May", "revenue": 8500, "orders": 256 },
+        { "name": "Jun", "revenue": 9200, "orders": 277 },
+        { "name": "Jul", "revenue": 8800, "orders": 265 },
+        { "name": "Aug", "revenue": 9000, "orders": 271 },
+        { "name": "Sep", "revenue": 8200, "orders": 247 },
+        { "name": "Oct", "revenue": 9500, "orders": 286 },
+        { "name": "Nov", "revenue": 10500, "orders": 316 },
+        { "name": "Dec", "revenue": 14700, "orders": 443 }
+      ],
+      "categories": [
+        { "name": "Footwear", "value": 38, "color": "#6366f1" },
+        { "name": "Apparel", "value": 32, "color": "#3b82f6" },
+        { "name": "Equipment", "value": 22, "color": "#10b981" },
+        { "name": "Accessories", "value": 8, "color": "#f59e0b" }
+      ]
+    }
+  }
+]

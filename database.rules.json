@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "users": {
+      ".read": "true",
+      ".write": "auth != null",
+      ".indexOn": ["hubId", "storeId", "role"]
+    },
+    "hubs": {
+      ".read": "true",
+      ".write": "auth != null",
+      ".indexOn": ["status"]
+    },
+    "stores": {
+      ".read": "true",
+      ".write": "auth != null",
+      ".indexOn": ["hubId", "status"]
+    },
+    "products": {
+      ".read": "true",
+      ".write": "true",
+      ".indexOn": ["hubId"]
+    }
+  }
+}

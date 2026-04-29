@@ -1,0 +1,217 @@
+{
+  "kpi": [
+    { "label": "Total Revenue", "value": "KES 98,400", "change": "+12.5%", "up": true },
+    { "label": "Total Orders", "value": "5,838", "change": "+8.2%", "up": true },
+    { "label": "New Customers", "value": "4,512", "change": "+18.4%", "up": true },
+    { "label": "Avg. Order Value", "value": "KES 16.86", "change": "-2.1%", "up": false }
+  ],
+  "monthly": [
+    { "name": "Jan", "revenue": 4000, "orders": 240, "customers": 140 },
+    { "name": "Feb", "revenue": 3000, "orders": 139, "customers": 221 },
+    { "name": "Mar", "revenue": 5000, "orders": 380, "customers": 290 },
+    { "name": "Apr", "revenue": 4500, "orders": 390, "customers": 200 },
+    { "name": "May", "revenue": 7000, "orders": 480, "customers": 380 },
+    { "name": "Jun", "revenue": 6500, "orders": 380, "customers": 430 },
+    { "name": "Jul", "revenue": 8200, "orders": 590, "customers": 490 },
+    { "name": "Aug", "revenue": 7800, "orders": 490, "customers": 350 },
+    { "name": "Sep", "revenue": 9000, "orders": 600, "customers": 560 },
+    { "name": "Oct", "revenue": 8700, "orders": 550, "customers": 490 },
+    { "name": "Nov", "revenue": 11000, "orders": 700, "customers": 640 },
+    { "name": "Dec", "revenue": 13500, "orders": 890, "customers": 820 }
+  ],
+  "categories": [
+    { "name": "Fruits & Veg", "value": 35, "color": "#3b82f6" },
+    { "name": "Dairy", "value": 25, "color": "#6366f1" },
+    { "name": "Bakery", "value": 20, "color": "#f97316" },
+    { "name": "Meat", "value": 12, "color": "#ec4899" },
+    { "name": "Other", "value": 8, "color": "#64748b" }
+  ],
+  "stores": [
+    {
+      "id": "fresh-farms",
+      "name": "Fresh Farms Co.",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 24,500", "change": "+15.3%", "up": true },
+        { "label": "Total Orders", "value": "1,420", "change": "+10.1%", "up": true },
+        { "label": "New Customers", "value": "1,180", "change": "+22.6%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 17.25", "change": "+1.4%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 1000, "orders": 60, "customers": 35 },
+        { "name": "Feb", "revenue": 800, "orders": 40, "customers": 55 },
+        { "name": "Mar", "revenue": 1300, "orders": 95, "customers": 72 },
+        { "name": "Apr", "revenue": 1100, "orders": 97, "customers": 50 },
+        { "name": "May", "revenue": 1800, "orders": 120, "customers": 95 },
+        { "name": "Jun", "revenue": 1600, "orders": 95, "customers": 107 },
+        { "name": "Jul", "revenue": 2100, "orders": 148, "customers": 122 },
+        { "name": "Aug", "revenue": 2000, "orders": 123, "customers": 87 },
+        { "name": "Sep", "revenue": 2300, "orders": 150, "customers": 140 },
+        { "name": "Oct", "revenue": 2200, "orders": 137, "customers": 122 },
+        { "name": "Nov", "revenue": 2800, "orders": 175, "customers": 160 },
+        { "name": "Dec", "revenue": 3400, "orders": 222, "customers": 205 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 55, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 15, "color": "#6366f1" },
+        { "name": "Bakery", "value": 10, "color": "#f97316" },
+        { "name": "Meat", "value": 8, "color": "#ec4899" },
+        { "name": "Other", "value": 12, "color": "#64748b" }
+      ]
+    },
+    {
+      "id": "dairy-direct",
+      "name": "Dairy Direct",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 18,200", "change": "+9.8%", "up": true },
+        { "label": "Total Orders", "value": "1,050", "change": "+6.4%", "up": true },
+        { "label": "New Customers", "value": "820", "change": "+14.2%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 17.33", "change": "-1.8%", "up": false }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 750, "orders": 45, "customers": 26 },
+        { "name": "Feb", "revenue": 600, "orders": 28, "customers": 44 },
+        { "name": "Mar", "revenue": 950, "orders": 76, "customers": 58 },
+        { "name": "Apr", "revenue": 850, "orders": 78, "customers": 40 },
+        { "name": "May", "revenue": 1350, "orders": 96, "customers": 76 },
+        { "name": "Jun", "revenue": 1250, "orders": 76, "customers": 86 },
+        { "name": "Jul", "revenue": 1600, "orders": 118, "customers": 98 },
+        { "name": "Aug", "revenue": 1500, "orders": 98, "customers": 70 },
+        { "name": "Sep", "revenue": 1750, "orders": 120, "customers": 112 },
+        { "name": "Oct", "revenue": 1680, "orders": 110, "customers": 98 },
+        { "name": "Nov", "revenue": 2120, "orders": 140, "customers": 128 },
+        { "name": "Dec", "revenue": 2600, "orders": 178, "customers": 164 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 10, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 60, "color": "#6366f1" },
+        { "name": "Bakery", "value": 12, "color": "#f97316" },
+        { "name": "Meat", "value": 5, "color": "#ec4899" },
+        { "name": "Other", "value": 13, "color": "#64748b" }
+      ]
+    },
+    {
+      "id": "organic-valley",
+      "name": "Organic Valley",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 41,800", "change": "+18.7%", "up": true },
+        { "label": "Total Orders", "value": "2,310", "change": "+12.5%", "up": true },
+        { "label": "New Customers", "value": "1,750", "change": "+25.3%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 18.10", "change": "+3.2%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 1500, "orders": 90, "customers": 52 },
+        { "name": "Feb", "revenue": 1100, "orders": 50, "customers": 82 },
+        { "name": "Mar", "revenue": 1800, "orders": 142, "customers": 108 },
+        { "name": "Apr", "revenue": 1650, "orders": 146, "customers": 75 },
+        { "name": "May", "revenue": 2500, "orders": 180, "customers": 142 },
+        { "name": "Jun", "revenue": 2350, "orders": 142, "customers": 161 },
+        { "name": "Jul", "revenue": 3000, "orders": 221, "customers": 184 },
+        { "name": "Aug", "revenue": 2850, "orders": 184, "customers": 131 },
+        { "name": "Sep", "revenue": 3300, "orders": 225, "customers": 210 },
+        { "name": "Oct", "revenue": 3170, "orders": 206, "customers": 184 },
+        { "name": "Nov", "revenue": 4000, "orders": 262, "customers": 240 },
+        { "name": "Dec", "revenue": 4900, "orders": 334, "customers": 307 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 40, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 22, "color": "#6366f1" },
+        { "name": "Bakery", "value": 18, "color": "#f97316" },
+        { "name": "Meat", "value": 10, "color": "#ec4899" },
+        { "name": "Other", "value": 10, "color": "#64748b" }
+      ]
+    },
+    {
+      "id": "bakery-house",
+      "name": "Bakery House",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 12,600", "change": "+7.2%", "up": true },
+        { "label": "Total Orders", "value": "780", "change": "+4.6%", "up": true },
+        { "label": "New Customers", "value": "540", "change": "+11.8%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 16.15", "change": "-3.5%", "up": false }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 500, "orders": 30, "customers": 18 },
+        { "name": "Feb", "revenue": 380, "orders": 18, "customers": 28 },
+        { "name": "Mar", "revenue": 620, "orders": 48, "customers": 37 },
+        { "name": "Apr", "revenue": 560, "orders": 49, "customers": 25 },
+        { "name": "May", "revenue": 880, "orders": 60, "customers": 48 },
+        { "name": "Jun", "revenue": 810, "orders": 48, "customers": 54 },
+        { "name": "Jul", "revenue": 1050, "orders": 74, "customers": 62 },
+        { "name": "Aug", "revenue": 980, "orders": 62, "customers": 44 },
+        { "name": "Sep", "revenue": 1100, "orders": 75, "customers": 70 },
+        { "name": "Oct", "revenue": 1080, "orders": 69, "customers": 62 },
+        { "name": "Nov", "revenue": 1380, "orders": 88, "customers": 80 },
+        { "name": "Dec", "revenue": 1680, "orders": 112, "customers": 103 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 5, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 15, "color": "#6366f1" },
+        { "name": "Bakery", "value": 60, "color": "#f97316" },
+        { "name": "Meat", "value": 3, "color": "#ec4899" },
+        { "name": "Other", "value": 17, "color": "#64748b" }
+      ]
+    },
+    {
+      "id": "meat-masters",
+      "name": "Meat Masters",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 29,300", "change": "+11.4%", "up": true },
+        { "label": "Total Orders", "value": "1,640", "change": "+7.9%", "up": true },
+        { "label": "New Customers", "value": "1,260", "change": "+16.8%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 17.87", "change": "+0.8%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 1200, "orders": 72, "customers": 42 },
+        { "name": "Feb", "revenue": 900, "orders": 40, "customers": 66 },
+        { "name": "Mar", "revenue": 1500, "orders": 114, "customers": 87 },
+        { "name": "Apr", "revenue": 1350, "orders": 117, "customers": 60 },
+        { "name": "May", "revenue": 2100, "orders": 144, "customers": 114 },
+        { "name": "Jun", "revenue": 1950, "orders": 114, "customers": 129 },
+        { "name": "Jul", "revenue": 2500, "orders": 177, "customers": 147 },
+        { "name": "Aug", "revenue": 2350, "orders": 147, "customers": 105 },
+        { "name": "Sep", "revenue": 2700, "orders": 180, "customers": 168 },
+        { "name": "Oct", "revenue": 2610, "orders": 165, "customers": 147 },
+        { "name": "Nov", "revenue": 3300, "orders": 210, "customers": 192 },
+        { "name": "Dec", "revenue": 4050, "orders": 267, "customers": 246 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 8, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 10, "color": "#6366f1" },
+        { "name": "Bakery", "value": 7, "color": "#f97316" },
+        { "name": "Meat", "value": 62, "color": "#ec4899" },
+        { "name": "Other", "value": 13, "color": "#64748b" }
+      ]
+    },
+    {
+      "id": "sea-harvest",
+      "name": "Sea Harvest",
+      "kpi": [
+        { "label": "Total Revenue", "value": "KES 22,100", "change": "+8.6%", "up": true },
+        { "label": "Total Orders", "value": "1,230", "change": "+5.8%", "up": true },
+        { "label": "New Customers", "value": "940", "change": "+13.1%", "up": true },
+        { "label": "Avg. Order Value", "value": "KES 17.97", "change": "+2.1%", "up": true }
+      ],
+      "monthly": [
+        { "name": "Jan", "revenue": 900, "orders": 54, "customers": 31 },
+        { "name": "Feb", "revenue": 680, "orders": 30, "customers": 50 },
+        { "name": "Mar", "revenue": 1100, "orders": 85, "customers": 65 },
+        { "name": "Apr", "revenue": 1000, "orders": 88, "customers": 45 },
+        { "name": "May", "revenue": 1550, "orders": 108, "customers": 85 },
+        { "name": "Jun", "revenue": 1440, "orders": 85, "customers": 97 },
+        { "name": "Jul", "revenue": 1850, "orders": 133, "customers": 110 },
+        { "name": "Aug", "revenue": 1750, "orders": 110, "customers": 79 },
+        { "name": "Sep", "revenue": 2000, "orders": 135, "customers": 126 },
+        { "name": "Oct", "revenue": 1940, "orders": 124, "customers": 110 },
+        { "name": "Nov", "revenue": 2450, "orders": 158, "customers": 144 },
+        { "name": "Dec", "revenue": 3000, "orders": 200, "customers": 184 }
+      ],
+      "categories": [
+        { "name": "Fruits & Veg", "value": 5, "color": "#3b82f6" },
+        { "name": "Dairy", "value": 8, "color": "#6366f1" },
+        { "name": "Bakery", "value": 5, "color": "#f97316" },
+        { "name": "Meat", "value": 22, "color": "#ec4899" },
+        { "name": "Other", "value": 60, "color": "#64748b" }
+      ]
+    }
+  ]
+}

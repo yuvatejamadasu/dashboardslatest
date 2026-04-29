@@ -1,0 +1,199 @@
+.add-product-page .preview-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0; /* Critical for flex scrolling */
+  background-color: #ffffff;
+}
+
+.add-product-page .preview-header {
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--sidebar-border);
+  flex-shrink: 0;
+}
+
+.add-product-page .header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.add-product-page .header-left h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.add-product-page .product-count-badge {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.add-product-page .preview-header p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.add-product-page .preview-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+  background-color: #f8fafc;
+  min-height: 0;
+  border-bottom: 1px solid var(--sidebar-border);
+}
+
+.add-product-page .preview-content::-webkit-scrollbar { width: 5px; }
+.add-product-page .preview-content::-webkit-scrollbar-track { background: transparent; }
+.add-product-page .preview-content::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+.add-product-page .empty-state {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px;
+}
+
+.add-product-page .empty-icon {
+  margin-bottom: 16px;
+  color: var(--input-border);
+  opacity: 0.6;
+}
+
+.add-product-page .empty-state h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.add-product-page .empty-state p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/* Compact Grid Layout for Preview Cards */
+.add-product-page .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+@media (min-width: 1600px) {
+  .add-product-page .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .add-product-page .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+.add-product-page .preview-footer {
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-top: 1px solid var(--sidebar-border);
+  flex-shrink: 0;
+}
+
+.add-product-page .footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-product-page .footer-summary {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.add-product-page .btn-final-submit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.add-product-page .btn-final-submit:hover:not(:disabled) {
+  background-color: #059669;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.3);
+}
+
+.add-product-page .btn-final-submit:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.add-product-page .btn-final-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: grayscale(1);
+}
+
+/* ── Dark Mode Overrides ── */
+.preview-dark {
+  background-color: #212529 !important;
+}
+
+.preview-dark .preview-header {
+  background-color: #1e2227 !important;
+  border-bottom-color: #3f464d !important;
+}
+
+.preview-dark .preview-header h2 {
+  color: #fff !important;
+}
+
+.preview-dark .preview-content {
+  background-color: #1a1d21 !important;
+  border-bottom-color: #3f464d !important;
+}
+
+.preview-dark .preview-footer {
+  background-color: #1e2227 !important;
+  border-top-color: #3f464d !important;
+}
+
+.preview-dark .footer-summary {
+  color: #94a3b8 !important;
+}
+
+.preview-dark .empty-state h3 {
+  color: #cbd5e1 !important;
+}
+
+.preview-dark .empty-state p {
+  color: #64748b !important;
+}
+
+.preview-dark .preview-content::-webkit-scrollbar-thumb {
+  background: #475569 !important;
+}
+

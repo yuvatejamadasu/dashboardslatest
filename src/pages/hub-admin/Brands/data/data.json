@@ -1,0 +1,58 @@
+{
+  "brands": [
+    { "id": 1,  "name": "Cardinal",         "logo": "/assets/imgs/brands/brand-1.jpg",  "products": 398 },
+    { "id": 2,  "name": "BirdFly",          "logo": "/assets/imgs/brands/brand-2.jpg",  "products": 13  },
+    { "id": 3,  "name": "Cocorico",         "logo": "/assets/imgs/brands/brand-3.jpg",  "products": 13  },
+    { "id": 4,  "name": "Yogilist",         "logo": "/assets/imgs/brands/brand-4.jpg",  "products": 87  },
+    { "id": 5,  "name": "Acerie",           "logo": "/assets/imgs/brands/brand-5.jpg",  "products": 10  },
+    { "id": 6,  "name": "Shivakin",         "logo": "/assets/imgs/brands/brand-6.jpg",  "products": 398 },
+    { "id": 7,  "name": "Acera",            "logo": "/assets/imgs/brands/brand-7.jpg",  "products": 398 },
+    { "id": 8,  "name": "Lion electronics", "logo": "/assets/imgs/brands/brand-8.jpg",  "products": 398 },
+    { "id": 9,  "name": "TwoHand",          "logo": "/assets/imgs/brands/brand-9.jpg",  "products": 398 },
+    { "id": 10, "name": "Kiaomin",          "logo": "/assets/imgs/brands/brand-10.jpg", "products": 398 },
+    { "id": 11, "name": "Nokine",           "logo": "/assets/imgs/brands/brand-11.jpg", "products": 398 },
+    { "id": 12, "name": "Company name",     "logo": "/assets/imgs/brands/brand-12.jpg", "products": 13  },
+    { "id": 13, "name": "Company name",     "logo": "/assets/imgs/brands/brand-13.jpg", "products": 398 },
+    { "id": 14, "name": "Company name",     "logo": "/assets/imgs/brands/brand-14.jpg", "products": 13  },
+    { "id": 15, "name": "Company name",     "logo": "/assets/imgs/brands/brand-15.jpg", "products": 398 },
+    { "id": 16, "name": "Company name",     "logo": "/assets/imgs/brands/brand-16.jpg", "products": 13  },
+    { "id": 17, "name": "Company name",     "logo": "/assets/imgs/brands/brand-17.jpg", "products": 13  },
+    { "id": 18, "name": "Company name",     "logo": "/assets/imgs/brands/brand-18.jpg", "products": 13  }
+  ],
+
+  "products": [
+    { "id": 1,  "name": "Cardinal Sport Shoes",      "price": 1299, "image": "/assets/imgs/brands/brand-1.jpg"  },
+    { "id": 2,  "name": "BirdFly Running Shoes",      "price": 999,  "image": "/assets/imgs/brands/brand-2.jpg"  },
+    { "id": 3,  "name": "Cocorico Sneakers",          "price": 1599, "image": "/assets/imgs/brands/brand-3.jpg"  },
+    { "id": 4,  "name": "Yogilist Yoga Mat",          "price": 499,  "image": "/assets/imgs/brands/brand-4.jpg"  },
+    { "id": 5,  "name": "Acerie Casual Loafers",      "price": 799,  "image": "/assets/imgs/brands/brand-5.jpg"  },
+    { "id": 6,  "name": "Shivakin Formal Shoes",      "price": 2199, "image": "/assets/imgs/brands/brand-6.jpg"  },
+    { "id": 7,  "name": "Acera Leather Belt",         "price": 349,  "image": "/assets/imgs/brands/brand-7.jpg"  },
+    { "id": 8,  "name": "Lion Electronics Earbuds",   "price": 1999, "image": "/assets/imgs/brands/brand-8.jpg"  },
+    { "id": 9,  "name": "TwoHand Gym Gloves",         "price": 299,  "image": "/assets/imgs/brands/brand-9.jpg"  },
+    { "id": 10, "name": "Kiaomin Smart Watch",        "price": 3499, "image": "/assets/imgs/brands/brand-10.jpg" },
+    { "id": 11, "name": "Nokine Wireless Speaker",    "price": 2799, "image": "/assets/imgs/brands/brand-11.jpg" },
+    { "id": 12, "name": "Premium Backpack Pro",       "price": 1899, "image": "/assets/imgs/brands/brand-12.jpg" },
+    { "id": 13, "name": "Urban Trek Hiking Boots",    "price": 2499, "image": "/assets/imgs/brands/brand-13.jpg" },
+    { "id": 14, "name": "Classic Oxford Shoes",       "price": 1699, "image": "/assets/imgs/brands/brand-14.jpg" },
+    { "id": 15, "name": "SportFlex Track Pants",      "price": 699,  "image": "/assets/imgs/brands/brand-15.jpg" },
+    { "id": 16, "name": "AquaRun Water Bottle",       "price": 249,  "image": "/assets/imgs/brands/brand-16.jpg" },
+    { "id": 17, "name": "DryFit Performance Tee",     "price": 549,  "image": "/assets/imgs/brands/brand-17.jpg" },
+    { "id": 18, "name": "ComfortStep Insoles",        "price": 199,  "image": "/assets/imgs/brands/brand-18.jpg" },
+    { "id": 19, "name": "Elite Training Shorts",      "price": 449,  "image": "/assets/imgs/brands/brand-1.jpg"  },
+    { "id": 20, "name": "FlexGrip Resistance Bands",  "price": 349,  "image": "/assets/imgs/brands/brand-2.jpg"  }
+  ],
+
+  "defaultBrand": {
+    "name": "Cardinal",
+    "logo": "/assets/imgs/brands/brand-1.jpg"
+  },
+
+  "brandManager": {
+    "name":  "Rajesh Kumar",
+    "email": "rajesh.kumar@cardinal.com",
+    "phone": "+254 98765 43210"
+  },
+
+  "productsPerPage": 8
+}

@@ -1,0 +1,35 @@
+/* Add Product Page Scoped Styles - Resetting for Grid Layout */
+
+.add-product-page {
+  --primary-color: #1d5ba0;
+  --bg-slate-50: #f8fafc;
+  --border-slate-200: #e2e8f0;
+}
+
+/* Base wrapper inherited from Layout (p-0) then controlled by AddProduct.jsx (p-6) */
+.add-product-page.p-6 {
+  padding: 1.5rem;
+  /* background-color: var(--bg-slate-50); -- Removed to allow theme context to control background */
+  min-height: 100%;
+}
+
+.add-product-page .grid {
+  display: grid;
+  width: 100%;
+}
+
+/* Left column: sticky form — offset by navbar height (80px) */
+.add-product-page .grid > .sticky {
+  top: 80px;
+  z-index: 10;
+}
+
+/* Right column: preview panel — fixed height so internal content scrolls */
+.add-product-page .preview-panel-wrapper {
+  height: calc(100vh - 140px); /* Fixed height relative to viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
